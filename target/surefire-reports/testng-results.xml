@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="56774" started-at="2022-03-06T10:27:08 IST" finished-at="2022-03-06T10:28:05 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="56774" started-at="2022-03-06T10:27:08 IST" finished-at="2022-03-06T10:28:05 IST">
+      <class name="SDET.SeleniumTraining.TestngExample">
+        <test-method status="PASS" signature="before()[pri:0, instance:SDET.SeleniumTraining.TestngExample@5f3a4b84]" name="before" is-config="true" duration-ms="16780" started-at="2022-03-06T10:27:08 IST" finished-at="2022-03-06T10:27:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="MousehoverOragne()[pri:0, instance:SDET.SeleniumTraining.TestngExample@5f3a4b84]" name="MousehoverOragne" duration-ms="4" started-at="2022-03-06T10:27:25 IST" finished-at="2022-03-06T10:27:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MousehoverOragne -->
+        <test-method status="PASS" signature="After()[pri:0, instance:SDET.SeleniumTraining.TestngExample@5f3a4b84]" name="After" is-config="true" duration-ms="1" started-at="2022-03-06T10:27:25 IST" finished-at="2022-03-06T10:27:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After -->
+        <test-method status="PASS" signature="before()[pri:0, instance:SDET.SeleniumTraining.TestngExample@5f3a4b84]" name="before" is-config="true" duration-ms="19095" started-at="2022-03-06T10:27:25 IST" finished-at="2022-03-06T10:27:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="PassEmail()[pri:0, instance:SDET.SeleniumTraining.TestngExample@5f3a4b84]" name="PassEmail" duration-ms="1" started-at="2022-03-06T10:27:44 IST" finished-at="2022-03-06T10:27:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PassEmail -->
+        <test-method status="PASS" signature="After()[pri:0, instance:SDET.SeleniumTraining.TestngExample@5f3a4b84]" name="After" is-config="true" duration-ms="2" started-at="2022-03-06T10:27:44 IST" finished-at="2022-03-06T10:27:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After -->
+        <test-method status="PASS" signature="before()[pri:0, instance:SDET.SeleniumTraining.TestngExample@5f3a4b84]" name="before" is-config="true" duration-ms="20839" started-at="2022-03-06T10:27:44 IST" finished-at="2022-03-06T10:28:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="m3()[pri:0, instance:SDET.SeleniumTraining.TestngExample@5f3a4b84]" name="m3" duration-ms="2" started-at="2022-03-06T10:28:05 IST" finished-at="2022-03-06T10:28:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m3 -->
+        <test-method status="PASS" signature="After()[pri:0, instance:SDET.SeleniumTraining.TestngExample@5f3a4b84]" name="After" is-config="true" duration-ms="2" started-at="2022-03-06T10:28:05 IST" finished-at="2022-03-06T10:28:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After -->
+      </class> <!-- SDET.SeleniumTraining.TestngExample -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
