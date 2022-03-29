@@ -1,49 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="33707" started-at="2022-03-06T10:08:39 IST" finished-at="2022-03-06T10:09:13 IST">
+  <suite name="Default suite" duration-ms="9506" started-at="2022-03-29T08:05:26 IST" finished-at="2022-03-29T08:05:35 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="33707" started-at="2022-03-06T10:08:39 IST" finished-at="2022-03-06T10:09:13 IST">
-      <class name="SDET.SeleniumTraining.TestngExample">
-        <test-method status="PASS" signature="before()[pri:0, instance:SDET.SeleniumTraining.TestngExample@df27fae]" name="before" is-config="true" duration-ms="13693" started-at="2022-03-06T10:08:39 IST" finished-at="2022-03-06T10:08:53 IST">
+    <test name="Default test" duration-ms="9506" started-at="2022-03-29T08:05:26 IST" finished-at="2022-03-29T08:05:35 IST">
+      <class name="SDET.SeleniumTraining.ActionClassDemo">
+        <test-method status="PASS" signature="FlowTest()[pri:0, instance:SDET.SeleniumTraining.ActionClassDemo@47db50c5]" name="FlowTest" duration-ms="9468" started-at="2022-03-29T08:05:26 IST" finished-at="2022-03-29T08:05:35 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="MousehoverOragne()[pri:0, instance:SDET.SeleniumTraining.TestngExample@df27fae]" name="MousehoverOragne" duration-ms="15" started-at="2022-03-06T10:08:53 IST" finished-at="2022-03-06T10:08:53 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MousehoverOragne -->
-        <test-method status="PASS" signature="After()[pri:0, instance:SDET.SeleniumTraining.TestngExample@df27fae]" name="After" is-config="true" duration-ms="1" started-at="2022-03-06T10:08:53 IST" finished-at="2022-03-06T10:08:53 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- After -->
-        <test-method status="PASS" signature="before()[pri:0, instance:SDET.SeleniumTraining.TestngExample@df27fae]" name="before" is-config="true" duration-ms="9777" started-at="2022-03-06T10:08:53 IST" finished-at="2022-03-06T10:09:03 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="PassEmail()[pri:0, instance:SDET.SeleniumTraining.TestngExample@df27fae]" name="PassEmail" duration-ms="2" started-at="2022-03-06T10:09:03 IST" finished-at="2022-03-06T10:09:03 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PassEmail -->
-        <test-method status="PASS" signature="After()[pri:0, instance:SDET.SeleniumTraining.TestngExample@df27fae]" name="After" is-config="true" duration-ms="1" started-at="2022-03-06T10:09:03 IST" finished-at="2022-03-06T10:09:03 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- After -->
-        <test-method status="PASS" signature="before()[pri:0, instance:SDET.SeleniumTraining.TestngExample@df27fae]" name="before" is-config="true" duration-ms="10104" started-at="2022-03-06T10:09:03 IST" finished-at="2022-03-06T10:09:13 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="m3()[pri:0, instance:SDET.SeleniumTraining.TestngExample@df27fae]" name="m3" duration-ms="9" started-at="2022-03-06T10:09:13 IST" finished-at="2022-03-06T10:09:13 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- m3 -->
-        <test-method status="PASS" signature="After()[pri:0, instance:SDET.SeleniumTraining.TestngExample@df27fae]" name="After" is-config="true" duration-ms="0" started-at="2022-03-06T10:09:13 IST" finished-at="2022-03-06T10:09:13 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- After -->
-      </class> <!-- SDET.SeleniumTraining.TestngExample -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- FlowTest -->
+      </class> <!-- SDET.SeleniumTraining.ActionClassDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

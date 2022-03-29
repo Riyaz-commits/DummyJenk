@@ -19,13 +19,16 @@ import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class ActionClassDemo {
 	public static Properties prop;
 	public static WebDriver driver;
-	public static void main(String[] args) throws InterruptedException, IOException {
+	
+	@Test
+	public  void FlowTest() throws InterruptedException, IOException {
 		FileInputStream fis = new FileInputStream(".\\Resources\\Testdata.properties");
 		Properties prop = new Properties();
 		prop.load(fis);
