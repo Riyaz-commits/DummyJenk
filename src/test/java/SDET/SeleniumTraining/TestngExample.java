@@ -16,8 +16,9 @@ import org.testng.annotations.Test;
 
 public class TestngExample extends TestBaseCl {
 
-	
 	public WebDriver driver;
+	
+	
 	
 	@Test
 	public void PassEmail()
@@ -49,7 +50,7 @@ public class TestngExample extends TestBaseCl {
 	public void After()
 	{
 		System.out.println("Executing After every test case");
-	
+		TestBaseCl.driver.quit();	
 	}
 	
 	@BeforeMethod

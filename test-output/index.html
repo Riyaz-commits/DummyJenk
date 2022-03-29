@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\RIYAZ BASHA SHAIK\AppData\Local\Temp\testng-eclipse-338643293\testng-customsuite.xml</span>
+                    <span>C:\Users\RIYAZ BASHA SHAIK\AppData\Local\Temp\testng-eclipse-1963274266\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,7 +104,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="SDET.SeleniumTraining.ActionClassDemo" hash-for-method="FlowTest">FlowTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="SDET.SeleniumTraining.TestngExample" hash-for-method="MousehoverOragne">MousehoverOragne</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="SDET.SeleniumTraining.TestngExample" hash-for-method="PassEmail">PassEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="SDET.SeleniumTraining.TestngExample" hash-for-method="m3">m3</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -122,14 +132,28 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">SDET.SeleniumTraining.ActionClassDemo</span>
+              <span class="class-name">SDET.SeleniumTraining.TestngExample</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="FlowTest">
-                  </a> <!-- FlowTest -->
-                  <span class="method-name">FlowTest</span>
+                  <a name="MousehoverOragne">
+                  </a> <!-- MousehoverOragne -->
+                  <span class="method-name">MousehoverOragne</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PassEmail">
+                  </a> <!-- PassEmail -->
+                  <span class="method-name">PassEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="m3">
+                  </a> <!-- m3 -->
+                  <span class="method-name">m3</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -137,7 +161,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\RIYAZ BASHA SHAIK\AppData\Local\Temp\testng-eclipse-338643293\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\RIYAZ BASHA SHAIK\AppData\Local\Temp\testng-eclipse-1963274266\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -146,7 +170,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;SDET.SeleniumTraining.ActionClassDemo&quot;/&gt;
+      &lt;class name=&quot;SDET.SeleniumTraining.TestngExample&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -186,16 +210,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'FlowTest')
-data.setCell(0, 2, 'SDET.SeleniumTraining.ActionClassDemo')
-data.setCell(0, 3, 9468);
+data.setCell(0, 1, 'MousehoverOragne')
+data.setCell(0, 2, 'SDET.SeleniumTraining.TestngExample')
+data.setCell(0, 3, 39);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'PassEmail')
+data.setCell(1, 2, 'SDET.SeleniumTraining.TestngExample')
+data.setCell(1, 3, 10);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'm3')
+data.setCell(2, 2, 'SDET.SeleniumTraining.TestngExample')
+data.setCell(2, 3, 5);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <span class="suite-total-time">Total running time: 54 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -221,11 +253,43 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">SDET.SeleniumTraining.ActionClassDemo</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">FlowTest</span>
+              <div class="chronological-class-name">SDET.SeleniumTraining.TestngExample</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">before</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">MousehoverOragne</span>
+                <span class="method-start">13982 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">After</span>
+                <span class="method-start">14104 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before</span>
+                <span class="method-start">15279 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PassEmail</span>
+                <span class="method-start">25573 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">After</span>
+                <span class="method-start">25591 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before</span>
+                <span class="method-start">27119 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">m3</span>
+                <span class="method-start">35493 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">After</span>
+                <span class="method-start">35501 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
