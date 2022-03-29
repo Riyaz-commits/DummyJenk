@@ -168,6 +168,9 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.ExtentReportListner.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;SDET.SeleniumTraining.TestngExample&quot;/&gt;
@@ -215,20 +218,20 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'MousehoverOragne')
 data.setCell(0, 2, 'SDET.SeleniumTraining.TestngExample')
-data.setCell(0, 3, 2);
+data.setCell(0, 3, 1);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'PassEmail')
+data.setCell(1, 1, 'm3')
 data.setCell(1, 2, 'SDET.SeleniumTraining.TestngExample')
 data.setCell(1, 3, 1);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'm3')
+data.setCell(2, 1, 'PassEmail')
 data.setCell(2, 2, 'SDET.SeleniumTraining.TestngExample')
 data.setCell(2, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 ms</span>
+              <span class="suite-total-time">Total running time: 2 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -261,35 +264,35 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">MousehoverOragne</span>
-                <span class="method-start">8406 ms</span>
+                <span class="method-start">13929 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">After</span>
-                <span class="method-start">8423 ms</span>
+                <span class="method-start">13932 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">8431 ms</span>
+                <span class="method-start">14580 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">After</span>
+                <span class="method-start">29468 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">PassEmail</span>
-                <span class="method-start">16081 ms</span>
+                <span class="method-start">29468 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">After</span>
-                <span class="method-start">16082 ms</span>
-              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">16084 ms</span>
+                <span class="method-start">30109 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">m3</span>
-                <span class="method-start">23518 ms</span>
+                <span class="method-start">40865 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">After</span>
-                <span class="method-start">23519 ms</span>
+                <span class="method-start">40866 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

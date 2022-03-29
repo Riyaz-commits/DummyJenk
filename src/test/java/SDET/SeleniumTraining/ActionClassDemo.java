@@ -30,6 +30,8 @@ public class ActionClassDemo {
 	@Test
 	public  void FlowTest() throws InterruptedException, IOException {
 		FileInputStream fis = new FileInputStream(".\\Resources\\Testdata.properties");
+		System.setProperty("hudson.model.DirectoryBrowserSupport.CSP", "default-src * 'unsafe-inline' 'unsafe-eval'; script-src * 'unsafe-inline' 'unsafe-eval'; connect-src * 'unsafe-inline'; img-src * data: blob: 'unsafe-inline'; frame-src *; style-src * 'unsafe-inline';");
+
 		Properties prop = new Properties();
 		prop.load(fis);
 		String browsername = prop.getProperty("browser");
