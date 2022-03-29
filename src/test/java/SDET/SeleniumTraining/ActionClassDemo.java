@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
+import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
@@ -74,9 +75,12 @@ public class ActionClassDemo {
 				File SrcFile=scrShot.getScreenshotAs(OutputType.FILE);
 
 				//Move image file to new destination
-
+				// creating an object of Random class   
+				Random random = new Random();   
+				// Generates random integers 0 to 49  
+				int x = random.nextInt(500000); 
 				File DestFile=new
-						File(".\\target\\scrnshotNew.png"
+						File(".\\target\\Screenshots\\scrnshotNew"+x+".png"
 								);
 
 				//Copy file at destination
